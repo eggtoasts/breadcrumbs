@@ -30,6 +30,18 @@ importers:
         specifier: ^8.62.1
         version: 8.62.1(eslint@10.6.0)(typescript@6.0.3)
 
+  apps/api: {}
+
+  apps/extension: {}
+
+  apps/web: {}
+
+  packages/db: {}
+
+  packages/shared: {}
+
+  packages/ui: {}
+
 packages:
 
   '@eslint-community/eslint-utils@4.9.1':

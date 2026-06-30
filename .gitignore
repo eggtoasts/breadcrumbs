@@ -1,0 +1,24 @@
+# scratch
+testing/
+
+# dependencies
+node_modules/
+
+# build outputs
+dist/
+build/
+.output/
+.wxt/
+.turbo/
+coverage/
+
+# env / secrets
+.env
+.env.*
+!.env.example
+.dev.vars
+.wrangler/
+
+# os / editor
+.DS_Store
+*.log

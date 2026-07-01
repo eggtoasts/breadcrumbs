@@ -3,6 +3,8 @@ packages:
   - "packages/*"
 allowBuilds:
   esbuild: true
+  sharp: true
+  workerd: true
 minimumReleaseAgeExclude:
   - "@turbo/darwin-64@2.10.2"
   - "@turbo/darwin-arm64@2.10.2"
@@ -13,3 +15,4 @@ minimumReleaseAgeExclude:
   - turbo@2.10.2
   - prettier@3.9.4
   - "@types/node@26.1.0"
+  - '@cloudflare/workers-types@4.20260701.1'

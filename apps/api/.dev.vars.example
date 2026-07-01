@@ -1,0 +1,3 @@
+# Copy to .dev.vars (gitignored) for local wrangler dev
+DATABASE_URL=
+SUPABASE_JWT_SECRET=

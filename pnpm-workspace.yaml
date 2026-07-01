@@ -1,6 +1,8 @@
 packages:
   - "apps/*"
   - "packages/*"
+allowBuilds:
+  esbuild: true
 minimumReleaseAgeExclude:
   - "@turbo/darwin-64@2.10.2"
   - "@turbo/darwin-arm64@2.10.2"
@@ -10,3 +12,4 @@ minimumReleaseAgeExclude:
   - "@turbo/windows-arm64@2.10.2"
   - turbo@2.10.2
   - prettier@3.9.4
+  - '@types/node@26.1.0'

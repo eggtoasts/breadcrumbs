@@ -88,11 +88,11 @@ describe("completionRate", () => {
 describe("completionRateByLengthBucket", () => {
   it("groups correctly and calculates per-bucket rates", () => {
     const records = [
-      rec({ status: "completed", wordCount: 5_000 }),   // <10k completed
-      rec({ status: "dnf", wordCount: 8_000 }),          // <10k not completed
-      rec({ status: "completed", wordCount: 20_000 }),   // 10-50k completed
-      rec({ status: "completed", wordCount: 75_000 }),   // 50-100k completed
-      rec({ status: "completed", wordCount: 200_000 }),  // 100k+ completed
+      rec({ status: "completed", wordCount: 5_000 }), // <10k completed
+      rec({ status: "dnf", wordCount: 8_000 }), // <10k not completed
+      rec({ status: "completed", wordCount: 20_000 }), // 10-50k completed
+      rec({ status: "completed", wordCount: 75_000 }), // 50-100k completed
+      rec({ status: "completed", wordCount: 200_000 }), // 100k+ completed
     ];
     const result = completionRateByLengthBucket(records);
     expect(result["<10k"]).toBeCloseTo(0.5);
@@ -216,10 +216,7 @@ describe("topFandoms", () => {
 
 describe("topTags", () => {
   it("returns tags sorted by frequency", () => {
-    const records = [
-      rec({ tags: ["hurt/comfort", "fluff"] }),
-      rec({ tags: ["hurt/comfort"] }),
-    ];
+    const records = [rec({ tags: ["hurt/comfort", "fluff"] }), rec({ tags: ["hurt/comfort"] })];
     expect(topTags(records, 1)[0]).toEqual({ name: "hurt/comfort", count: 2 });
   });
 });

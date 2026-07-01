@@ -1,7 +1,9 @@
-node_modules/
+packages/db/migrations/
+
+pnpm-lock.yaml
 dist/
 build/
 .output/
 .wxt/
 .turbo/
-pnpm-lock.yaml
+coverage/

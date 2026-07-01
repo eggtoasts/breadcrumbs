@@ -1,4 +1,5 @@
 packages/db/migrations/
+pnpm-workspace.yaml
 
 pnpm-lock.yaml
 dist/

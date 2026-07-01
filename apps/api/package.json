@@ -11,7 +11,8 @@
     "deploy": "wrangler deploy"
   },
   "dependencies": {
-    "hono": "^4.12.27"
+    "hono": "^4.12.27",
+    "jose": "^6.2.3"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20260701.1",

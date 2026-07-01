@@ -38,6 +38,9 @@ importers:
       hono:
         specifier: ^4.12.27
         version: 4.12.27
+      jose:
+        specifier: ^6.2.3
+        version: 6.2.3
     devDependencies:
       '@cloudflare/workers-types':
         specifier: ^4.20260701.1
@@ -1397,6 +1400,9 @@ packages:
 
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
+
+  jose@6.2.3:
+    resolution: {integrity: sha512-YYVDInQKFJfR/xa3ojUTl8c2KoTwiL1R5Wg9YCydwH0x0B9grbzlg5HC7mMjCtUJjbQ/YnGEZIhI5tCgfTb4Hw==}
 
   json-buffer@3.0.1:
     resolution: {integrity: sha512-4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ==}
@@ -2784,6 +2790,8 @@ snapshots:
       is-extglob: 2.1.1
 
   isexe@2.0.0: {}
+
+  jose@6.2.3: {}
 
   json-buffer@3.0.1: {}
 
